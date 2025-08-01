@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#story-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.choice-btn {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    width: 80%;
+    max-width: 300px;
+}
+
+.choice-btn:hover {
+    background: #0056b3;
+}
+
+#result-container {
+    text-align: center;
+}
+
+#result-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #218838;
+}
