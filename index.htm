@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História da Inteligência Artificial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="story-container">
+            <h1>O Dilema da Inteligência Artificial</h1>
+            <p id="story-text">Você acorda em um futuro onde a Inteligência Artificial controla boa parte da vida humana. Sua primeira escolha define o rumo da história.</p>
+            
+            <div id="choices">
+                <button class="choice-btn" onclick="nextStep(1)">Aceitar a IA como guia</button>
+                <button class="choice-btn" onclick="nextStep(2)">Questionar a IA e buscar mais liberdade</button>
+            </div>
+        </div>
+
+        <div id="result-container" style="display: none;">
+            <h2>Resultado</h2>
+            <p id="result-text"></p>
+            <button onclick="restartGame()">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
